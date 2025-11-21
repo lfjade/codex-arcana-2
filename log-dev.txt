@@ -1,0 +1,2 @@
+tem que fazer as rotas de get por id
+pensar nas rotas nxn
