@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Kingthings Petrock';
+    src: url('../../assets/fonts/KingthingsPetrock.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kingthings Petrock Light';
+    src: url('../../assets/fonts/KingthingsPetrockLight.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Kingthings Petrock Light', serif;
+    color:rgb(202, 197, 175);
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: 
+        url(../../assets/img/279fb3fa-262c-4598-804b-bf303022e16c.png),
+        url(../../assets/img/backgorund.png);
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#content {
+    display:flex;
+    flex-direction: column;
+    gap: 330px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
+
+.pw-wrapper {
+    position: relative;
+}
+
+#pw {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+#pw:focus{
+    outline: none;
+    box-shadow: none;
+}

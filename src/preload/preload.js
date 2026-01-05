@@ -1,4 +1,4 @@
-const { contextBridge } = require("electron");
+const { contextBridge, ipcRenderer } = require("electron");
 const servidor = "http://localhost:3000"
 
 async function apiRequest (method, url, data) {
@@ -61,4 +61,9 @@ contextBridge.exposeInMainWorld('api', {
     diariosTags,
     feiticosTags,
     feiticosComponentes
+})
+
+contextBridge.exposeInMainWorld('secure', {
+    getPw: async () => await ipcRenderer.invoke('get-pw'),
+    navigate: (page) => {ipcRenderer.send('navigate', page)}
 })
