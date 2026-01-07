@@ -60,10 +60,13 @@ contextBridge.exposeInMainWorld('api', {
     componentes,
     diariosTags,
     feiticosTags,
-    feiticosComponentes
+    feiticosComponentes,
+    fecharApp: () => ipcRenderer.send('fechar'),
+    irParaPagina: (pagina) => ipcRenderer.send('ir-para-pagina', pagina)
 })
 
 contextBridge.exposeInMainWorld('secure', {
     getPw: async () => await ipcRenderer.invoke('get-pw'),
     navigate: (page) => {ipcRenderer.send('navigate', page)}
 })
+

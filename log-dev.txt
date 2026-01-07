@@ -2,3 +2,8 @@ tem que fazer as rotas de get por id
 pensar nas rotas nxn
 
 usar grid
+
+proximo passo: navigation 
+
+ta, deu merda na integração da hecate.
+revisar.
