@@ -2,7 +2,6 @@ const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 require('../backend/server.js')
 
-
 require('dotenv').config()
 
 let mainWindow

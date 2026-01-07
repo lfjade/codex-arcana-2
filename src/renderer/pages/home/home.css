@@ -1,0 +1,9 @@
+@import "../base.css";
+#um {
+  place-items: center;
+}
+
+#frase-welcome {
+  text-align: center;
+  grid-row: 4;
+}
