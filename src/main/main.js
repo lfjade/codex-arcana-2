@@ -1,6 +1,5 @@
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
-require('../backend/server.js')
 
 require('dotenv').config()
 
@@ -17,6 +16,7 @@ function createMainWindow(){
         }
     })
 
+    server=require('../backend/server.js')
     mainWindow.loadFile(path.join(__dirname, '../renderer/pages/login/login.html'))
 }
 

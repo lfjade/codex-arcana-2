@@ -1,4 +1,13 @@
 @import "../base.css";
+@font-face {
+    font-family: 'Kingthings Petrock';
+    src: url('../../assets/fonts/KingthingsPetrock.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Kingthings Petrock Light';
+    src: url('../../assets/fonts/KingthingsPetrockLight.woff2') format('woff2');
+}
+
 #um {
   place-items: center;
 }
