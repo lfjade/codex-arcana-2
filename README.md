@@ -40,7 +40,7 @@
 - Operating system compatible with Electron (Windows, Linux, or macOS)
 - A valid **Gemini API key** (for Hecate interaction features)
 
-## Setup
+## 📦Setup
 
 **1. Clone the repository and install dependencies**
 
