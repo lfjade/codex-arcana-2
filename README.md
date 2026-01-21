@@ -108,8 +108,6 @@ Future improvements may be added as the project evolves.
 
 ## 🗂️ Status
 
-## 🗂️ Status
-
 This project is **under active development**.
 
 The backend architecture, database schema, and core logic are implemented and functional.
